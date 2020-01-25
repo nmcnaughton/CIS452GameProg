@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Nathan McNaughton 
+ * GameBehavior.cs
+ * Assignment 1
+ * Displays the "functionality" of implemented abstracts and interfaces
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

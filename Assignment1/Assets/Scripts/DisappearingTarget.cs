@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Nathan McNaughton 
+ * DisappearingTarget.cs
+ * Assignment 1
+ * Contains implemented methods
+ */
+ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
