@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Nathan McNaughton
+ * Assignment 2
+ * Teleporter.cs
+ * Teleporter target's class, applies behavior when shot
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,7 +13,7 @@ public class Teleporter : Target2
     void Start()
     {
         hits = 4;
-        points = 15;
+        points = 25;
         dodge = new NoDodge();
     }
 
@@ -21,7 +27,8 @@ public class Teleporter : Target2
 
         if (!switched)
         {
-            SwitchDodge(new TeleportDodge());
+            SwitchDodge(new TeleportDodge(gameObject));
+            gameObject.GetComponent<Rigidbody>().useGravity = false;
             switched = true;
         }
 

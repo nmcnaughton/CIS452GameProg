@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Nathan McNaughton
+ * Assignment 2
+ * Jumper.cs
+ * Class for the Jumping target, applies the behavior when shot
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -21,7 +27,7 @@ public class Jumper : Target2
 
         if (!switched)
         {
-            SwitchDodge(new JumpDodge());
+            SwitchDodge(new JumpDodge(gameObject));
             switched = true;
         }
 

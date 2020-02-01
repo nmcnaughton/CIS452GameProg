@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Nathan McNaughton
+ * Assignment 2
+ * Target2.cs
+ * Implementation of basic target functions. Named target2 due to assignment 1 already having a Target.cs file.
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -21,8 +27,9 @@ public abstract class Target2 : MonoBehaviour
         TryToDodge();
     }
 
-    public void Break()
+    public virtual void Break()
     {
+        GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>().addPoints(this.points);
         Destroy(this.gameObject);
     }
 
