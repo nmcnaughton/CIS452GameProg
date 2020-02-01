@@ -40,6 +40,8 @@ public class GameManager : MonoBehaviour
     {
         StartCoroutine(CountDown(startTime));
         started = true;
+        //reset score
+        addPoints(-score);
     }
 
     public void StopGame()
