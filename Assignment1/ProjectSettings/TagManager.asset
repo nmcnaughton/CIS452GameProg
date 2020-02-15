@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Target
+  - Manager
+  - SmallEnemy
+  - LargeEnemy
+  - Bullet
+  - BossEnemy
   layers:
   - Default
   - TransparentFX
@@ -14,8 +19,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Bullet
+  - Enemy
   - 
   - 
   - 

@@ -4,6 +4,6 @@ using UnityEngine;
 
 public interface IShot
 {
-    public void CreateShot();
-
+    float GetSize();
+    int GetNumber();
 }

@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6814670274836363461
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6814670274836363456}
+  - component: {fileID: 6814670274836363463}
+  - component: {fileID: 6814670274836363462}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Manager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6814670274836363456
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6814670274836363461}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.8319988, y: 2.9020343, z: -2.8472614}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6814670274836363463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6814670274836363461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66f0e26093781b242b95a94e7358d78a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 1729257492965359455, guid: 384057c7a9dc7f144990aa39ce669704,
+    type: 3}
+  smallEnemyPrefab: {fileID: 8453012871963546010, guid: 6a56e1accb53da149a974d5732f7138e,
+    type: 3}
+  largeEnemyPrefab: {fileID: 5115801403062148325, guid: 69063784330419e47a20c17400dde8c3,
+    type: 3}
+  bossEnemyPrefab: {fileID: 1192461974713472929, guid: b9aaabac041ec284aa1267949966f319,
+    type: 3}
+  shotSpawnLoc: {fileID: 0}
+  gameOn: 0
+--- !u!114 &6814670274836363462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6814670274836363461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3845c2fa72d21f646856c8a4ca75e1a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  sizeText: {fileID: 0}
+  numberText: {fileID: 0}
+  winText: {fileID: 0}
+  loseText: {fileID: 0}
+  fireText: {fileID: 0}
+  spawner: {fileID: 6814670274836363463}
