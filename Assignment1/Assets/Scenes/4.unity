@@ -297,7 +297,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &282623790
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2119,6 +2119,46 @@ PrefabInstance:
       propertyPath: m_Name
       value: Manager
       objectReference: {fileID: 0}
+    - target: {fileID: 6814670274836363462, guid: 8376d9421140b524f87fb7b21d9bef3f,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1283566742}
+    - target: {fileID: 6814670274836363462, guid: 8376d9421140b524f87fb7b21d9bef3f,
+        type: 3}
+      propertyPath: sizeText
+      value: 
+      objectReference: {fileID: 1144386247}
+    - target: {fileID: 6814670274836363462, guid: 8376d9421140b524f87fb7b21d9bef3f,
+        type: 3}
+      propertyPath: numberText
+      value: 
+      objectReference: {fileID: 996655029}
+    - target: {fileID: 6814670274836363462, guid: 8376d9421140b524f87fb7b21d9bef3f,
+        type: 3}
+      propertyPath: fireText
+      value: 
+      objectReference: {fileID: 2129453385}
+    - target: {fileID: 6814670274836363462, guid: 8376d9421140b524f87fb7b21d9bef3f,
+        type: 3}
+      propertyPath: loseText
+      value: 
+      objectReference: {fileID: 1202496615}
+    - target: {fileID: 6814670274836363462, guid: 8376d9421140b524f87fb7b21d9bef3f,
+        type: 3}
+      propertyPath: winText
+      value: 
+      objectReference: {fileID: 1202496615}
+    - target: {fileID: 6814670274836363462, guid: 8376d9421140b524f87fb7b21d9bef3f,
+        type: 3}
+      propertyPath: loseImage
+      value: 
+      objectReference: {fileID: 282623789}
+    - target: {fileID: 6814670274836363462, guid: 8376d9421140b524f87fb7b21d9bef3f,
+        type: 3}
+      propertyPath: winImage
+      value: 
+      objectReference: {fileID: 1618012330}
     - target: {fileID: 6814670274836363456, guid: 8376d9421140b524f87fb7b21d9bef3f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2197,46 +2237,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1192461974713472929, guid: b9aaabac041ec284aa1267949966f319,
         type: 3}
-    - target: {fileID: 6814670274836363462, guid: 8376d9421140b524f87fb7b21d9bef3f,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1283566742}
-    - target: {fileID: 6814670274836363462, guid: 8376d9421140b524f87fb7b21d9bef3f,
-        type: 3}
-      propertyPath: sizeText
-      value: 
-      objectReference: {fileID: 1144386247}
-    - target: {fileID: 6814670274836363462, guid: 8376d9421140b524f87fb7b21d9bef3f,
-        type: 3}
-      propertyPath: numberText
-      value: 
-      objectReference: {fileID: 996655029}
-    - target: {fileID: 6814670274836363462, guid: 8376d9421140b524f87fb7b21d9bef3f,
-        type: 3}
-      propertyPath: fireText
-      value: 
-      objectReference: {fileID: 2129453385}
-    - target: {fileID: 6814670274836363462, guid: 8376d9421140b524f87fb7b21d9bef3f,
-        type: 3}
-      propertyPath: loseText
-      value: 
-      objectReference: {fileID: 1202496615}
-    - target: {fileID: 6814670274836363462, guid: 8376d9421140b524f87fb7b21d9bef3f,
-        type: 3}
-      propertyPath: winText
-      value: 
-      objectReference: {fileID: 1202496615}
-    - target: {fileID: 6814670274836363462, guid: 8376d9421140b524f87fb7b21d9bef3f,
-        type: 3}
-      propertyPath: loseImage
-      value: 
-      objectReference: {fileID: 282623789}
-    - target: {fileID: 6814670274836363462, guid: 8376d9421140b524f87fb7b21d9bef3f,
-        type: 3}
-      propertyPath: winImage
-      value: 
-      objectReference: {fileID: 1618012330}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8376d9421140b524f87fb7b21d9bef3f, type: 3}
 --- !u!1001 &7760654797402924356
@@ -2246,15 +2246,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5568825980083075422, guid: badb9579226f8034a877dfba31efcb8f,
-        type: 3}
-      propertyPath: m_IsKinematic
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7760654798535281106, guid: badb9579226f8034a877dfba31efcb8f,
         type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5568825980083075422, guid: badb9579226f8034a877dfba31efcb8f,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7760654798535281118, guid: badb9579226f8034a877dfba31efcb8f,
         type: 3}
