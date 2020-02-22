@@ -10,6 +10,10 @@ TagManager:
   - LargeEnemy
   - Bullet
   - BossEnemy
+  - Shape
+  - Wall
+  - Sphere
+  - Cube
   layers:
   - Default
   - TransparentFX
