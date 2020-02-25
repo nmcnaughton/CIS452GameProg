@@ -112,6 +112,8 @@ public class GameManager5 : MonoBehaviour
         if (Random.Range(0, 2) == 1)
         {
             Instantiate(shapeFactory.CreateShape("Cube"), new Vector3(1f, 7f, 0f), new Quaternion(0f, 0f, 0f, 0f));
+            Instantiate(shapeFactory.CreateShape("Cube"), new Vector3(1f, 7f, 1f), new Quaternion(0f, 0f, 0f, 0f));
+            Instantiate(shapeFactory.CreateShape("Cube"), new Vector3(0f, 7f, 0f), new Quaternion(0f, 0f, 0f, 0f));
             Instantiate(shapeFactory.CreateShape("Sphere"), new Vector3(0f, 7f, 1f), new Quaternion(0f, 0f, 0f, 0f));
             randText.text = "Cube";
             backer.color = new Color(99f / 255f, 224f / 255f, 69f / 255f);
@@ -121,6 +123,8 @@ public class GameManager5 : MonoBehaviour
         {
             Instantiate(shapeFactory.CreateShape("Cube"), new Vector3(0f, 7f, 0f), new Quaternion(0f, 0f, 0f, 0f));
             Instantiate(shapeFactory.CreateShape("Sphere"), new Vector3(1f, 7f, 1f), new Quaternion(0f, 0f, 0f, 0f));
+            Instantiate(shapeFactory.CreateShape("Sphere"), new Vector3(1f, 7f, 0f), new Quaternion(0f, 0f, 0f, 0f));
+            Instantiate(shapeFactory.CreateShape("Sphere"), new Vector3(0f, 7f, 1f), new Quaternion(0f, 0f, 0f, 0f));
             randText.text = "Sphere";
             backer.color = new Color(164f / 255f, 63f / 255f, 224f / 255f);
         }
