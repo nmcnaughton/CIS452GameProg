@@ -2,23 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ShapeFactory : MonoBehaviour
+public class RealShapeFactory : ShapeFactory
 {
-    public GameObject cubePrefab;
-    public GameObject spherePrefab;
+    public GameObject sphere;
+    public GameObject cube;
     public GameObject spawnObject;
-    public GameObject CreateShape(string input)
+    public override GameObject CreateShape(string input)
     {
-        switch(input)
+        switch (input)
         {
             case "Cube":
-                spawnObject = cubePrefab;
+                spawnObject = cube;
                 return spawnObject;
             case "Sphere":
-                spawnObject = spherePrefab;
+                spawnObject = sphere;
                 return spawnObject;
         }
-
         return null;
     }
 }
