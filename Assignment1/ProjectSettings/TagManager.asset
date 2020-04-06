@@ -15,6 +15,12 @@ TagManager:
   - Sphere
   - Cube
   - Fake
+  - Tongue
+  - Ant
+  - Anthill
+  - Food
+  - Ground
+  - Game
   layers:
   - Default
   - TransparentFX

@@ -8,7 +8,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FirstPersonControls : MonoBehaviour
+public class FirstPerson9 : MonoBehaviour
 {
     public float sensitivity = 100f;
     public float xRot;
@@ -37,3 +37,4 @@ public class FirstPersonControls : MonoBehaviour
         }
     }
 }
+
