@@ -21,6 +21,9 @@ TagManager:
   - Food
   - Ground
   - Game
+  - Score
+  - Health
+  - ButtonCanvas
   layers:
   - Default
   - TransparentFX
