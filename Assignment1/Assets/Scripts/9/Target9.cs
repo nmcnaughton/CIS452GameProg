@@ -53,7 +53,7 @@ public class Target9 : MonoBehaviour
 
     public void Break()
     {
-        GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager9>().addPoints(this.points);
+        GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager3>().addPoints(this.points);
         Destroy(this.gameObject);
     }
 
